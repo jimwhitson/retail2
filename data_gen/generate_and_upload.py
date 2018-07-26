@@ -9,11 +9,12 @@ num_products_per_run = 100
 num_stores = 100
 num_groups = 10
 
-products_start_at = 0
+run_number = 0
 
 if len(sys.argv) == 2:
-    # argument is the run number so we know where to start from
-    products_start_at = int(sys.argv[1]) * num_products_per_run
+    run_number = int(sys.argv[1])
+
+products_start_at = run_number * num_products_per_run
 
 def num_store_price_changes_per_product():
     return random.randint(1, 10)

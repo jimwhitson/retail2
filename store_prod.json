@@ -1,0 +1,21 @@
+{
+  "type": "store_prod",
+  "store_grp": 1,
+  "store_id": 1,
+  "prod_id": 1,
+  "store_prices": [{
+    "date": "2018-07-25",
+    "reason": "ZZZ",
+    "price": 10.00
+  }, {
+    "date": "2018-06-25",
+    "reason": "YYY",
+    "price": 20.00
+  }, {
+    "date": "2018-05-25",
+    "reason": "XXX",
+    "price": 30.00
+  }]
+}
+
+ get -p store_prices[0] -p store_prices[1] -p store_prices[2] store::1000::product::1

@@ -1,0 +1,18 @@
+{
+  "type": "grp",
+  "store_grp": 1,
+  "prod_id": 1,
+  "store_grp_prices": [{
+    "date": "2018-07-25",
+    "reason": "ABC",
+    "price": 10.00
+  }, {
+    "date": "2018-06-25",
+    "reason": "DEF",
+    "price": 20.00
+  }, {
+    "date": "2018-05-25",
+    "reason": "GHJ",
+    "price": 30.00
+  }]
+}
